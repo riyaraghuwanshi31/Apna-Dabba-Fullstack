@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/custlogin.css" />
+</head>
+
+<body>
+    <div class="card">
+        <form action="/custMain" method="POST">
+            <h1>Login</h1>
+
+            <div class="username">
+                <input type="text" placeholder="Mobile/Email" name="email" />
+
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Password" name="password" />
+            </div>
+            <div class="forgot"> Forgot Password</div>
+            <div class="btn">
+                <a href="/custMain">
+                    <button class="login-btn" type="submit" >Login</button>
+                </a>
+
+            </div>
+            <div class="sign-up"> Customer <span> <a href="/custSignUp">
+                        Sign Up
+                    </a> </span>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

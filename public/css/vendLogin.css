@@ -1,0 +1,68 @@
+body{
+    background-image: url("../images/tiffinPhotoBG.jpg");
+    backdrop-filter: blur( 4px);;
+    background-size: 100% 740px;
+    padding: 9rem;
+  margin: 0;
+}
+.card{
+    margin-top: 1.5%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    height: 450px;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    background-color: rgb(246,234,234);
+    text-align: center;
+}
+.username input{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 2px solid grey;
+}
+.password input{
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 2px solid grey;
+}
+.forgot {
+    margin-top: 35px;
+    font-size: 22px;
+    cursor:pointer;
+}
+
+.btn .login-btn{
+    width: 290px;
+    height: 40px;
+    background-color: rgb(198,63,63) ;
+    border: none;
+    color: white;
+    font: size 22px;
+    border-radius: 20px;
+    margin-top: 35px;
+    cursor:pointer;
+}
+
+.btn .login-btn:hover{
+      font-size: 22px;
+}
+
+.sign-up {
+    margin-top: 35px;
+    font-size:22px;
+    cursor:pointer;
+}
+span{
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(209, 35, 35); 
+    cursor:pointer;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tiffin Service Order Page</title>
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/custOrder.css">
+ 
+</head>
+
+<body>
+
+
+  <!-- Nav bar -->
+
+  {{>navbar}}
+
+
+
+  <!--  Content example-->
+
+
+  <div class="table-responsive pb-5">
+
+
+    <div id="headOrd">
+      <h1>Order Details</h1>
+    </div>
+
+    <table id="tbOrderHistory" class="table border ps-table w-100 mb-3">
+      <thead>
+        <tr>
+
+          <th class="font-weight-bold py-2 border-0 quantity">Id</th>
+          <th class="font-weight-bold py-2 border-0 ">from</th>
+          <th class="font-weight-bold py-2 border-0 ">to</th>
+
+          <th class="font-weight-bold py-2 border-0 ">Center name</th>
+          <th class="font-weight-bold py-2 border-0 ">Tiffin Charges</th>
+          <th class="font-weight-bold py-2 border-0 ">Status</th>
+
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+
+
+ <!-- Footer -->
+ {{>footer}}
+
+
+  <!-- Add more order cards for past orders if needed -->
+<script src="../jq/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+<script src="../js/custOrd.js"></script>
+
+
+
+</body>
+
+</html>
